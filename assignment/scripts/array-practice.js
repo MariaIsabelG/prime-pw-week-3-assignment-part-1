@@ -43,7 +43,7 @@ console.log('Last favorite good is', favFoods[4])
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-console.log('Last animal is', animalArray.length)
+
 
 
 
@@ -55,7 +55,8 @@ animalArray.push('penguin');
 console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
-
+favFoods.push('Gazpacho');
+console.log('Added a dish to the end of the array', favFoods)
 
 
 // Example: Remove the last animal by using Array.pop
