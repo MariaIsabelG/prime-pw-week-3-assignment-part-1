@@ -47,6 +47,12 @@ console.log('Last animal is', animalArray[3])
 
 
 
+
+
+
+
+
+
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
 
@@ -66,6 +72,9 @@ console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
+let removedFoods = favFoods.pop();
+console.log('Removed the last food', removedFoods)
+console.log('My favorite foods are now', favFoods)
 
 
 // Example: Add an animal to the beginning using Array.unshift
