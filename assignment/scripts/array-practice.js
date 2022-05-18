@@ -93,6 +93,9 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
+removedFoods = favFoods.shift();
+console.log('Removed the first food', removedFoods)
+console.log('Food is now', favFoods)
 
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
