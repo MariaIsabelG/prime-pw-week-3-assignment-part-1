@@ -8,7 +8,7 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-let favFoods = ['hyejang gook', 'sancocho', 'seco', 'tacos', 'smoked salmon']
+let favFoods = ['hyejang gook', 'sancocho', 'seco', 'tacos', 'smoked salmon'];
 
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
@@ -24,21 +24,21 @@ console.log('--- 2.Legnth of array ---' );
 console.log('Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-console.log('Number of favorite foods:', favFoods.length)
+console.log('Number of favorite foods:', favFoods.length);
 
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log('First animal is', animalArray[0])
+console.log('First animal is', animalArray[0]);
 
 // 3.a. TODO: Log the second animal in the array 
-console.log('Second animal is', animalArray[1])
+console.log('Second animal is', animalArray[1]);
 
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-console.log('Last animal is', animalArray[3])
+console.log('Last animal is', animalArray[3]);
 
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
@@ -56,7 +56,7 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 favFoods.push('gazpacho');
-console.log('Added a dish to the end of the array', favFoods)
+console.log('Added a dish to the end of the array', favFoods);
 
 
 // Example: Remove the last animal by using Array.pop
@@ -88,18 +88,17 @@ console.log('The animals are now', animalArray);
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
 removedFoods = favFoods.shift();
-console.log('Removed the first food', removedFoods)
-console.log('Food is now', favFoods)
+console.log('Removed the first food', removedFoods);
+console.log('Food is now', favFoods);
 
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-favFoods[1] = 'chicken marsala'
+favFoods[1] = 'chicken marsala';
 console.log('Replaced second food. New food list is', favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-
 
 
 // 4.g (STRETCH) TODO: Convert your array to a string
